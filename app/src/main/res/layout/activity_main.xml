@@ -109,4 +109,11 @@
         android:text="@string/button_text_update"
         tools:ignore="VisualLintButtonSize" />
 
+    <Button
+        android:id="@+id/buttonSelectAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickButtonSelectAll"
+        android:text="@string/button_text_selectall" />
+
 </LinearLayout>
